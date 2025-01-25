@@ -94,13 +94,6 @@ Developers, artists, and enthusiasts are welcome to contribute! Join our GitHub 
 
 ---
 
-## Contact
-- **GitHub Repository**: [github.com/apple-juice-empire](https://github.com/apple-juice-empire)  
-- **Community Forum**: [discuss.applejuicegame.org](https://discuss.applejuicegame.org)  
-- **Lead Developer**: Zigao Wang
-
----
-
 ### Why Open Source?
 Releasing this game under **GPLv3** ensures transparency, encourages community growth, and fosters innovation. Together, we can create a game that’s not only fun but also empowers players and developers alike.
 
