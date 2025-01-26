@@ -1,15 +1,22 @@
-# Apple Juice Empire: An Open-Source 2.5D Farming Game
+### Game Name: **Juice Rush: Factory Frenzy**
 
 **Team Members:** Thomas Wu, Zigao Wang, Lily Ding
 
-**How would you pitch your game in one line?**
-"It's like Stardew Valley meets Factorio, but with apple juice production and a dynamic, open-source economy."
+**Pitch in one line:**
+"It's like *Shawarma Legend* meets *Overcooked*, but with a juice factory where you make juice, fix machines, and serve customers fast!"
 
-**What is the key mechanic(s) that make it fun?**
-The fun comes from planting apple trees, mixing apples to make creative juice flavors, and managing your growing business. You'll build your own apple juice empire by experimenting with different apple types, upgrading your machines, and selling your products in a changing market. The game’s mix of farming, crafting, and business strategy keeps it exciting and fun!
+**Key mechanics:**
+- Collect fruit, operate machines, and serve orders quickly.
+- Fix broken machines and deal with obstacles like spills and angry customers.
+- Upgrade machines and unlock new fruit types as you progress.
 
-**How does the game actually play? (Core Game Loop)**
-You start by planting apple trees and taking care of them. Once you harvest your apples, you mix them to create different juice flavors. You can sell your juice, make money, and use it to upgrade your farm and machines. There are challenges, like pests and bad weather, that you have to deal with to keep your business running smoothly. As you grow, you can create new recipes and expand your farm into a bigger juice empire!
+**How does the game play?**
+- You run around the juice factory, collecting fruit, making juice, and serving customers.
+- Each customer orders a specific juice, and you need to make it before time runs out.
+- Fix machines, clean spills, and handle angry customers to keep the factory running.
+- Earn rewards like coins and upgrades for completing orders.
 
-**How will you keep players engaged for 30 minutes? What's the general scope of your game (will change as you go)?**
-You’ll stay busy by planting new apples, mixing fun juice recipes, and selling them to make money. The game keeps things fresh with random events like changing market prices, weather surprises, and pest problems that keep you on your toes. The more you play, the more upgrades and new juice flavors you can unlock. Plus, since the game is open-source, players can add their own cool ideas and mods, so there’s always something new to try!
+**How will you keep players engaged for 30 minutes?**
+- The game gets harder as more customers and challenges are added.
+- New machines, fruits, and abilities unlock as you play.
+- Short, fast levels with increasing difficulty keep players coming back for more.
