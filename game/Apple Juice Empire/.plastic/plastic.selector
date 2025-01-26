@@ -1,4 +1,0 @@
-repository "Apple Juice Empire/Apple Juice Empire@33261047267070@cloud"
-  path "/"
-    br "/main"
-    co "/main"
