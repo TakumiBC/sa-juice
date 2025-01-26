@@ -1,0 +1,4 @@
+repository "Shanghai Cafe/Shanghai Cafe@33261047267070@cloud"
+  path "/"
+    br "/main"
+    co "/main"
