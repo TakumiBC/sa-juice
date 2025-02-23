@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanghai Cafe - UI Mockup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8e6d1;
+            margin: 0;
+            overflow: hidden;
+        }
+        .game-container {
+            width: 100vw;
+            height: 100vh;
+            background: url('cafe-background.jpg') center/cover no-repeat;
+            position: relative;
+        }
+        .order-list, .inventory, .reputation {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border: 2px solid black;
+            position: absolute;
+        }
+        .order-list {
+            top: 10px;
+            right: 10px;
+            width: 200px;
+        }
+        .inventory {
+            bottom: 10px;
+            left: 10px;
+            width: 200px;
+        }
+        .reputation {
+            bottom: 10px;
+            right: 10px;
+            width: 150px;
+        }
+        .player {
+            width: 200px;
+            height: 200px;
+            background: url('player-sprite.png') center/contain no-repeat;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <div class="order-list">
+            <h3>Orders</h3>
+            <ul id="orders">
+                <li>Latte</li>
+                <li>Croissant</li>
+            </ul>
+        </div>
+        <div class="inventory">
+            <h3>Inventory</h3>
+            <p id="inventory-items">(Empty)</p>
+        </div>
+        <div class="reputation">
+            <h3>Reputation</h3>
+            <p id="reputation-score">100%</p>
+        </div>
+        <div class="player" id="player"></div>
+    </div>
+    <script>
+        document.addEventListener('keydown', function(event) {
+            let player = document.getElementById('player');
+            let speed = 10;
+            let currentTop = parseInt(window.getComputedStyle(player).top);
+            let currentLeft = parseInt(window.getComputedStyle(player).left);
+
+            switch(event.key) {
+                case 'ArrowUp':
+                    player.style.top = currentTop - speed + 'px';
+                    break;
+                case 'ArrowDown':
+                    player.style.top = currentTop + speed + 'px';
+                    break;
+                case 'ArrowLeft':
+                    player.style.left = currentLeft - speed + 'px';
+                    break;
+                case 'ArrowRight':
+                    player.style.left = currentLeft + speed + 'px';
+                    break;
+            }
+        });
+    </script>
+</body>
+</html>
